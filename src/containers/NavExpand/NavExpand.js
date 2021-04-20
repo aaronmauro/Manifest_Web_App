@@ -56,7 +56,7 @@ class NavExpand extends Component {
                         </Link>
                     </p>
 
-                    <p><center> <img src={ManiLogo} alt="Add" style={{width:100, height:100, marginLeft: 0}}/> </center></p>
+                    <center><p> <img src={ManiLogo} alt="Add" style={{width:100, height:100, marginLeft: 0}}/> </p></center>
 
                     {/* *** This path for home, should be /Manifest_Repo/#/ */}
                     <p className="navLinks">
