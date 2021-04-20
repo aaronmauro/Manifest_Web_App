@@ -2,7 +2,9 @@ import React, {Component, useEffect} from 'react';
 import Localbase from 'localbase';
 import App from '../App.js';
 
-let db = new Localbase('Mani')
+let db = new Localbase('Mani');
+
+
 //deletes all boards
 export function deleteCollection(){
     var ui=window.confirm("You are about to delete the all boards and notes. Click 'OK' to continue")
@@ -36,10 +38,10 @@ export function deleteBoardFromDB(givenId){
             })
         }
         
-        console.log("board"+ givenId +"deleted")
+        //console.log("board"+ givenId +"deleted")
         }
         else{
-            console.log("Error!")
+            //console.log("Error!")
         }
     })    
 }

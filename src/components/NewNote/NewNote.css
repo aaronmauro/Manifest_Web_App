@@ -105,10 +105,11 @@ position:absolute;
 top: 0%;
 bottom: 5px;
 left: 68%;
-max-width: 10px;
-max-height: 25px;
 width: 10px;
 height: 10px;
+max-width: 10px;
+max-height: 25px;
+
 }
 
 #PopoverClick{

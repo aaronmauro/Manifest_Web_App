@@ -4,12 +4,12 @@ import {LinkContainer} from 'react-router-bootstrap';
 import Tooltip from '../Tooltips/Tooltips';
 import Localbase from 'localbase';
 import * as ManiF from '../helpers.js';
-import './Main.css'
+import './Main.css';
 import ManifestJingle from '../../assets/ManifestJingle.mp3';
 import PlusButton from "../../assets/Buttons/AddButton.svg";
 import DeleteButton from "../../assets/Buttons/DeleteButton.svg";
-let db = new Localbase('Mani')
-db.config.debug = false
+let db = new Localbase('Mani');
+db.config.debug = false;
 
 const mainpage = ({notebook,setNotebook,setBoardTitle,setNotes,setIde}) => {
 

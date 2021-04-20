@@ -3,10 +3,10 @@ import {Card,Container, Button} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
 import './Boards.css';
 import Localbase from 'localbase';
-import PlusButton from "../../assets/Buttons/AddButton.svg"
-import DeleteButton from '../../assets/Buttons/DeleteButton.svg'
-  let db = new Localbase('Mani');
-  db.config.debug = false
+import PlusButton from "../../assets/Buttons/AddButton.svg";
+import DeleteButton from '../../assets/Buttons/DeleteButton.svg';
+let db = new Localbase('Mani');
+db.config.debug = false;
 
 const Boards = ({notes,ide,setNotes,boardtitle,setNoteId,setNoteele,setNoteTitle}) => {
   window.onbeforeunload = function() { 

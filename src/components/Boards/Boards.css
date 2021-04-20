@@ -48,8 +48,8 @@
 
 /** *** This sets the page to 900px max, most phones are more than that. Set to 100% instead... **/
 
-.appWidth{
+/*.appWidth{
     max-width: 900px;
     text-align:center;
     margin:auto;
-}
+}*/

@@ -11,9 +11,9 @@ import {Popover} from '@material-ui/core';
 import {UncontrolledPopover, PopoverHeader, PopoverBody} from 'reactstrap';
 import { eventListeners } from '@popperjs/core';
 
-
 let db = new Localbase('Mani');
-db.config.debug = false
+db.config.debug = false;
+
 // Object { title: "", text: "", id: "" }
 
 
@@ -23,14 +23,14 @@ db.config.debug = false
 const Newnote = ({ide,notes,setNote2,note2,noteId,setNotes,noteele,setNoteele,setIde,notetitle}) => {
  {/* console.log(notetitle)*/}
   
-/* *** This is likely going to have unexpected behaviours... I'm not totally certain it's needed. */
+/* *** This is likely going to have unexpected behaviours... I'm not totally certain it's needed. 
 
   window.onbeforeunload = function() { 
   window.setTimeout(function () { 
       window.location = '/';
   }, 0); 
   window.onbeforeunload = null; 
-}
+}*/
     /*----------Professor Mauro's code if we need to fall back to it----------------
     const [form, setForm] = useState({title: '', text: ''})
     const [id, setId] = useState(uniqid())
